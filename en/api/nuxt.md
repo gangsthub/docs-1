@@ -8,7 +8,8 @@ You might want to use your own server with your middleware and your API. That's 
 You can require Nuxt.js like this:
 
 ```js
-const { Nuxt, Builder } = require('nuxt')
+const { Nuxt } = require('nuxt')
+const { Builder } = require('nuxt/builder')
 ```
 
 ## Nuxt Constructor
